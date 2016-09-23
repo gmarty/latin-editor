@@ -1,0 +1,6 @@
+.idea/
+build/
+node_modules/
+coverage
+.DS_Store
+npm-debug.log

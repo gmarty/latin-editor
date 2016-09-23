@@ -1,0 +1,39 @@
+{
+  "name": "latin-editor",
+  "version": "1.0.0",
+  "description": "An editor to ease the understanding of texts written in classical Latin.",
+  "homepage": "https://github.com/gmarty/latin-editor#readme",
+  "keywords": [
+    "classical Latin",
+    "Latin",
+    "cltk"
+  ],
+  "license": "GPL-3.0",
+  "author": "G.C. Marty",
+  "main": "index.js",
+  "bin": {
+    "convert-lemmata": "bin/convert-lemma-list.js"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "generate-icons": "inkscape -e src/favicon.ico -w 32 src/img/icon.svg;inkscape -e src/icons/32.png -w 32 src/img/icon.svg;inkscape -e src/icons/192.png -w 192 src/img/icon.svg;inkscape -e src/icons/512.png -w 512 src/img/icon.svg;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gmarty/latin-editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gmarty/latin-editor/issues"
+  },
+  "devDependencies": {
+    "lodash": "^4.16.1",
+    "react-scripts": "0.4.3"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}

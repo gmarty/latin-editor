@@ -1,0 +1,21 @@
+{
+  "name": "Classical Latin editor",
+  "short_name": "Latin editor",
+  "lang": "la",
+  "scope": "/",
+  "start_url": "/index.html?utm_source=web_app_manifest&utm_medium=manifest&utm_campaign=web_app",
+  "theme_color": "aliceblue",
+  "background_color": "#fff",
+  "icons": [
+    {
+      "src": "icons/192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
