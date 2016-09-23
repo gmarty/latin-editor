@@ -12,4 +12,4 @@ This makes it easy to know what to look in a dictionary.
 ## Credits
 
 This project is heavily inspired by and reuse parts of the
-[Classical Language Toolkit](https://github.com/kylepjohnson/cltk).
+[Classical Language Toolkit](https://github.com/cltk/cltk).
