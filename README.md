@@ -1,4 +1,4 @@
-# ![Classical Latin editor](https://raw.githubusercontent.com/gmarty/latin-editor/master/src/icons/32.png "Classical Latin editor") Classical Latin editor
+# ![Classical Latin editor](https://raw.githubusercontent.com/gmarty/latin-editor/master/public/icons/32.png "Classical Latin editor") Classical Latin editor
 
 > An editor to ease the understanding of texts written in classical Latin.
 

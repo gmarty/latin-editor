@@ -1,6 +1,6 @@
 {
   "name": "latin-editor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An editor to ease the understanding of texts written in classical Latin.",
   "homepage": "https://latin-editor.5apps.com/",
   "keywords": [
@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "lodash": "^4.16.1",
-    "react-scripts": "0.4.3"
+    "react-scripts": "0.6.0"
   },
   "dependencies": {
     "react": "^15.3.2",
