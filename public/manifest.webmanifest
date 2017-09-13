@@ -1,6 +1,6 @@
 {
-  "name": "Classical Latin editor",
-  "short_name": "Latin editor",
+  "name": "Programma editorium linguae Latinae classicae",
+  "short_name": "Editorium Latinae",
   "lang": "la",
   "scope": "/",
   "start_url": "/index.html?utm_source=web_app_manifest&utm_medium=manifest&utm_campaign=web_app",
