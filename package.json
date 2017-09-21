@@ -29,12 +29,11 @@
     "url": "https://github.com/gmarty/latin-editor/issues"
   },
   "devDependencies": {
-    "lodash": "^4.16.1",
-    "react-scripts": "0.7.0"
+    "lodash": "^4.17.4",
+    "react-scripts": "1.0.13"
   },
   "dependencies": {
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "react-scripts": "1.0.13"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   }
 }
