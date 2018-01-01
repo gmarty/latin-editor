@@ -9,7 +9,7 @@ const sample = 'Gallia est omnis divisa in partes tres, quarum unam incolunt ' +
   'appellantur.';
 
 ReactDOM.render(
-  <Editor default={sample}/>,
+  <Editor value={sample}/>,
   document.querySelector('section')
 );
 registerServiceWorker();

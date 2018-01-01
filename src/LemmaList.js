@@ -3,19 +3,6 @@ import lemmatise from './lib/lemmatise';
 import './LemmaList.css';
 
 class LemmaList extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      text: props.text || '',
-    };
-  }
-
-  componentWillReceiveProps(props) {
-    const text = props.text;
-    this.setState({ text });
-  }
-
   displayLemmas(text = '') {
     if (!text) {
       return null;
@@ -48,11 +35,11 @@ class LemmaList extends Component {
   }
 
   render() {
-    if (!this.state.text) {
+    if (!this.props.value) {
       return null;
     }
 
-    const lemmaNodes = this.displayLemmas(this.state.text);
+    const lemmaNodes = this.displayLemmas(this.props.value);
 
     if (!lemmaNodes) {
       return null;

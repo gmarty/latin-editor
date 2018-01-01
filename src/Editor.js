@@ -3,20 +3,13 @@ import LemmaList from './LemmaList';
 import './Editor.css';
 
 class Editor extends Component {
-  constructor(props) {
-    super(props);
+  state = {
+    value: this.props.value || '',
+  };
 
-    this.state = {
-      text: props.default || '',
-    };
-
-    this.textChangeHandler = this.textChangeHandler.bind(this);
-  }
-
-  textChangeHandler(evt) {
-    const text = evt.target.value;
-    this.setState({ text });
-  }
+  textChangeHandler = ({ target: { value } }) => {
+    this.setState({ value });
+  };
 
   render() {
     return (
@@ -25,8 +18,8 @@ class Editor extends Component {
                   ref="editor"
                   placeholder="Hic aliquid scribe"
                   onChange={this.textChangeHandler}
-                  value={this.state.text}/>
-        <LemmaList text={this.state.text}/>
+                  value={this.state.value}/>
+        <LemmaList value={this.state.value}/>
       </div>
     );
   }
