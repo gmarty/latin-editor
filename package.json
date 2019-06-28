@@ -17,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "generate-icons": "inkscape -e src/favicon.ico -w 32 src/img/icon.svg;inkscape -e src/icons/32.png -w 32 src/img/icon.svg;inkscape -e src/icons/192.png -w 192 src/img/icon.svg;inkscape -e src/icons/512.png -w 512 src/img/icon.svg;"
   },
@@ -29,11 +29,18 @@
     "url": "https://github.com/gmarty/latin-editor/issues"
   },
   "devDependencies": {
-    "lodash": "^4.17.4",
-    "react-scripts": "1.0.13"
+    "lodash": "^4.17.11",
+    "react-scripts": "2.1.8"
   },
   "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
-  }
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "Firefox ESR",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
